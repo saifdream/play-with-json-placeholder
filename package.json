@@ -1,0 +1,27 @@
+{
+  "name": "play_with_json_placeholder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learn-with-Sumit/assignment-5---play-with-json-placeholder-saifdream.git"
+  },
+  "author": "saif89.2012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Learn-with-Sumit/assignment-5---play-with-json-placeholder-saifdream/issues"
+  },
+  "homepage": "https://github.com/Learn-with-Sumit/assignment-5---play-with-json-placeholder-saifdream#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "immer": "^9.0.15",
+    "node-fetch": "^2.6.7",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
+  }
+}
