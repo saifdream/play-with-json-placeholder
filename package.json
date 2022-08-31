@@ -2,8 +2,9 @@
   "name": "play_with_json_placeholder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "rtk/index.js",
   "scripts": {
+    "start": "node rtk/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
