@@ -7,10 +7,10 @@ store.subscribe(() => {
 });
 
 store.dispatch(featchPostById(1))
-    // .unwrap()
-    .then(action => {
-        console.log("post is: ", action);
-        if(action.payload?.title) {
-            store.dispatch(featchRelatedPosts(action.payload?.title));
+    .unwrap()
+    .then(post => {
+        console.log("post is: ", post);
+        if(post?.title) {
+            store.dispatch(featchRelatedPosts(post?.title));
         }
     });

@@ -12,7 +12,7 @@ const featchRelatedPosts = createAsyncThunk("posts/featchRelatedPosts", async (t
     let queryStr = '';
     if(title) {
         const filterStr = title.split(' ').join('&title_like=');
-        queryStr = `title_like=${filterStr}&_limit=10`;
+        queryStr = `title_like=${filterStr}`;
     }
 
     console.log("queryStr is: ", queryStr)
